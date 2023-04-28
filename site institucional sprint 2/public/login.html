@@ -116,14 +116,14 @@
                 mensagem_erro.innerHTML = "Login realizado com sucesso! Redirecionando para tela de Login...";
 
                     setTimeout(function () {
-                        window.location = "./grafico.html";
+                        window.location = "./graficos.html";
                     }, 1000); // apenas para exibir o loading
 
                 });
 
             } else {
 
-                console.log("Houve um erro ao tentar realizar o login!");
+                console.log("Houve um erro ao tentar realizar o login");
 
             cardErro.style.display = "block"
             mensagem_erro.innerHTML = "O Login está inválido";
